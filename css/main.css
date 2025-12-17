@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #222;
+  --secondary-color: #444;
+  --accent-color: #4361ee;
+  --background-color: #f9f9f9;
+  --white: #ffffff;
+
+  --spacing: 1rem;
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background-color);
+  color: #111;
+}
