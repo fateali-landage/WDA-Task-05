@@ -1,0 +1,95 @@
+/* HEADER */
+.header {
+  background: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__subtitle {
+  opacity: 0.8;
+}
+
+/* NAVIGATION */
+.nav {
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.nav__link {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* GRID LAYOUT */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* SECTIONS */
+.section {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--radius);
+}
+
+/* SKILLS */
+.skills-list {
+  padding-left: 1.2rem;
+}
+
+.skills-list__item {
+  margin-bottom: 0.5rem;
+}
+
+/* PROJECTS */
+.project-card {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-left: 5px solid var(--accent-color);
+}
+
+/* CONTACT FORM */
+.contact-form__input,
+.contact-form__textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form__btn {
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}
